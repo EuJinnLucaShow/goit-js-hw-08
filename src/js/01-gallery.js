@@ -1,4 +1,4 @@
-// Описаний в документації
+// Імпорт бібліотеки SimpleLightbox як залежність проекту
 import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
