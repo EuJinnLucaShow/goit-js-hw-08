@@ -69,6 +69,11 @@ iframe {
   transform: translate(-50%, -50%);
 }
 
+form {
+  margin: auto; /* Встановлює відступи з усіх сторін */
+  width: 50%; /* Встановлює ширину форми */
+}
+
 .nav-item {
   margin-top: 30px;
 }
