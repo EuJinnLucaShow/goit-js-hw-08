@@ -21,7 +21,7 @@ function onPlayerTimeUpdate(event) {
 const savedTime = localStorage.getItem(storageKey);
 
 if (savedTime) {
-  player.setCurrentTime(savedTime);
+  player.setCurrentTime(savedTime || 0);
 }
 
 

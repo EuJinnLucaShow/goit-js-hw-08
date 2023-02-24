@@ -24,6 +24,11 @@ const submitForm = (event) => {
     email: emailInput.value,
     message: messageInput.value
   };
+
+  if (emailInput.value === "" || messageInput.value === "") {
+    return alert("Please fill in all the fields!");
+  }
+  
   console.log(state);
   localStorage.removeItem('feedback-form-state');
   emailInput.value = '';
